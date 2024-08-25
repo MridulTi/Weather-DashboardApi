@@ -8,5 +8,10 @@ export default defineConfig({
     proxy:{
       '/api/v1':"https://wasserstoff-fullstack-intern-task-46wb.vercel.app/"
     }
-  }
+  },
+  build: {
+    rollupOptions: {
+      external: ['axios'],
+    },
+  },
 })
