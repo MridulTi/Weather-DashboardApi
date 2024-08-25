@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server:{
     proxy:{
-      '/api/v1':"http://localhost:8000"
+      '/api/v1':"https://wasserstoff-fullstack-intern-task-6nax-689jdty5f.vercel.app"
     }
   }
 })
