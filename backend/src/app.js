@@ -21,7 +21,7 @@ import userRouter from "./routes/user.routes.js"
 import weatherRouter from "./routes/weather.routes.js"
 
 // routes declaration
-app.use("/", (req, res) => {
+app.get("/", (req, res) => {
     res.send("Hello, this is the root route!");
 });
 app.use("/api/v1/users",userRouter) //http://localhost:8000/api/v1/users/register or users/login
