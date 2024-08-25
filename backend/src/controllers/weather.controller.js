@@ -1,7 +1,7 @@
 import { ApiError } from "../utils/ApiError.js";
 import { ApiResponse } from "../utils/ApiResponse.js";
 import { asyncHandler } from "../utils/asyncHandler.js";
-import axios from "axios"
+import axios from 'axios'
 const getCurrentWeather=asyncHandler(async(req,res)=>{
     console.log("current-weather")
     const {lat,lon}=req.body
