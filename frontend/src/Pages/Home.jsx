@@ -24,7 +24,7 @@ function Home() {
         setdailyData(res.data.data)
       })
       .catch(err => {
-        triggerError(err)
+        console.log(err)
       })
   }
   function GetDailyWeather(latitude, longitude) {
@@ -42,7 +42,7 @@ function Home() {
         setdailyData(res.data.data)
       })
       .catch(err => {
-        triggerError(err)
+        console.log(err)
       })
   }
 
