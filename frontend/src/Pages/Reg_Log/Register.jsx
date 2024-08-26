@@ -38,18 +38,10 @@ function Register() {
         <h2 className="text-sm text-center px-2">Hey, Enter your details to sign up for your account.</h2>
         <input
           onChange={handleInputChange}
-          name="firstName"
+          name="fullName"
           className="outline-none p-2 border border-neutral-300 w-full rounded-md"
           type="text"
-          placeholder="First Name"
-        />
-        <input
-
-          onChange={handleInputChange}
-          name="lastName"
-          className="outline-none p-2 border border-neutral-300 w-full rounded-md"
-          type="text"
-          placeholder="Last Name"
+          placeholder="Full Name"
         />
         <input
           onChange={handleInputChange}
