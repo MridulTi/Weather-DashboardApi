@@ -37,7 +37,6 @@ function Register() {
         <h1 className="text-2xl sm:text-3xl font-bold text-center">Weather Signup</h1>
         <h2 className="text-sm text-center px-2">Hey, Enter your details to sign up for your account.</h2>
         <input
-          value=""
           onChange={handleInputChange}
           name="firstName"
           className="outline-none p-2 border border-neutral-300 w-full rounded-md"
@@ -45,7 +44,7 @@ function Register() {
           placeholder="First Name"
         />
         <input
-          value=""
+
           onChange={handleInputChange}
           name="lastName"
           className="outline-none p-2 border border-neutral-300 w-full rounded-md"
@@ -53,7 +52,6 @@ function Register() {
           placeholder="Last Name"
         />
         <input
-          value=""
           onChange={handleInputChange}
           name="email"
           className="outline-none p-2 border border-neutral-300 w-full rounded-md"
@@ -61,7 +59,6 @@ function Register() {
           placeholder="Email"
         />
         <input
-          value=""
           onChange={handleInputChange}
           name="username"
           className="outline-none p-2 border border-neutral-300 w-full rounded-md"
@@ -69,7 +66,6 @@ function Register() {
           placeholder="Username"
         />
         <input
-          value=""
           onChange={handleInputChange}
           name="password"
           className="outline-none p-2 border border-neutral-300 w-full rounded-md"
