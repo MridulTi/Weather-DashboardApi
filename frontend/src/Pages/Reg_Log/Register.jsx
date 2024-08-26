@@ -21,7 +21,7 @@ function Register() {
   };
 
   function postRegister() {
-    axios.post("api/v1/auth/register", formData)
+    axios.post("api/v1/users/register", formData)
       .then(res => {
         window.location.reload()
       })
