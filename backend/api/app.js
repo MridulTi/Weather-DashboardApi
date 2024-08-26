@@ -17,13 +17,11 @@ app.use(cookieParser())
 
 
 //routes import
-import userRouter from "./routes/user.routes.js"
-import weatherRouter from "./routes/weather.routes.js"
+import Router from "./routes/routes.js"
 
 // routes declaration
 app.get("/", (req, res) => {
     res.send("Hello, this is the root route!");
 });
-app.use("/api/v1/users",userRouter) //http://localhost:8000/api/v1/users/register or users/login
-app.use("/api/v1/weather",weatherRouter)
+app.use("/api/v1/",Router) //http://localhost:8000/api/v1/users/register or users/login
 export {app}
