@@ -60,7 +60,7 @@ function Register() {
         />
         <input
           onChange={handleInputChange}
-          name="username"
+          name="userName"
           className="outline-none p-2 border border-neutral-300 w-full rounded-md"
           type="text"
           placeholder="Username"
