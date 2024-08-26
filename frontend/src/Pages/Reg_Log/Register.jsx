@@ -21,6 +21,7 @@ function Register() {
   };
 
   function postRegister() {
+    console.log(formData)
     axios.post("api/v1/users/register", formData)
       .then(res => {
         window.location.reload()

@@ -2,7 +2,7 @@
     "rewrites": [
       {
         "source": "/api/v1/(.*)",
-        "destination": "https://backend-mqauxlmff-mridultis-projects.vercel.app/api/v1/$1"
+        "destination": "https://backend-phi-five-54.vercel.app/api/v1/$1"
       }
     ]
   }
