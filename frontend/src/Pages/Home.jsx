@@ -3,7 +3,6 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { WeatherCard, WholeCard } from '../Components/Cards';
 import { useAuth } from '../Context/Context';
-import { getDailyForecast } from '../../../backend/src/controllers/weather.controller';
 import { WiDayCloudy, WiDaySunny, WiDust, WiFog, WiRain, WiSnow, WiSprinkle } from 'react-icons/wi';
 import { FaTemperatureArrowUp, FaTemperatureArrowDown, FaDroplet, FaCloudRain } from "react-icons/fa6";
 import { BsFillSunriseFill, BsFillSunsetFill } from "react-icons/bs";
