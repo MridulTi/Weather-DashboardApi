@@ -20,3 +20,4 @@ connectDB()
   .catch((err)=>{
     console.error("MONGO DB Connection Failed !", err)
   });
+export default app
