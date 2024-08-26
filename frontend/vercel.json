@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+      {
+        "source": "/api/v1/(.*)",
+        "destination": "https://backend-mqauxlmff-mridultis-projects.vercel.app/api/v1/$1"
+      }
+    ]
+  }
+  
